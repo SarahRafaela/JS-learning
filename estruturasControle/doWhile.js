@@ -1,13 +1,13 @@
-function getInteiroAleatorioEntre(min, max) {
-    const valor = Math.random() * (max - min) + min
-    return Math.floor(valor)
+function getIntegerRandomicBetween(min, max) {
+    const value = Math.random() * (max - min) + min
+    return Math.floor(value)
 }
 
-let opcao = -1
+let option = -1
 
 do {
-    opcao = getInteiroAleatorioEntre(-1, 10)
-    console.log(`Opção escolhida foi ${opcao}.`)
-} while (opcao != -1)
+    option = getIntegerRandomicBetween(-1, 10)
+    console.log(`The choosen option is ${option}.`)
+} while (option != -1)
 
-console.log('Até a próxima!')
+console.log('See you soon!')

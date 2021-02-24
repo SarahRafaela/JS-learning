@@ -1,12 +1,12 @@
-const imprimirResultado = function(nota){
-    if (nota>=7){
-        console.log('Aprovado!')
+const showResult = function(grade){
+    if (grade>=7){
+        console.log('Aproved!')
     } else{
-        console.log('Reprovado!')
+        console.log('Rejected!')
     }
 }
 
-imprimirResultado(10)
+showResult(10)
 
-//cuidado
-imprimirResultado("nota")
+//pay attention
+showResult("grade")

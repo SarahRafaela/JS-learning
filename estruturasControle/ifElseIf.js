@@ -1,25 +1,25 @@
-Number.prototype.entre = function (inicio, fim) {
+Number.prototype.between = function (inicio, fim) {
     return this >= inicio && this <= fim
 }
 
-const imprimirResultado = function (nota) {
-    if (nota.entre(9, 10)) {
-        console.log("Quadro de Honra")
-    } else if (nota.entre(7, 8.99)) {
-        console.log("Aprovado")
-    } else if (nota.entre(4, 6.99)) {
-        console.log('Recuperação')
-    } else if (nota.entre(0, 3.99)) {
-        console.log('Reprovado')
+const showResult = function (grade) {
+    if (grade.between(9, 10)) {
+        console.log("Honor group")
+    } else if (grade.between(7, 8.99)) {
+        console.log("Aprovaded")
+    } else if (grade.between(4, 6.99)) {
+        console.log('Recovery')
+    } else if (grade.between(0, 3.99)) {
+        console.log('Rejected')
     } else {
-        console.log('Nota inválida')
+        console.log('Invalid Grade')
     }
 }
 
-imprimirResultado(10)
-imprimirResultado(8.9)
-imprimirResultado(6.55)
-imprimirResultado(2.3)
-imprimirResultado(-1)
-imprimirResultado(11)
+showResult(10)
+showResult(8.9)
+showResult(6.55)
+showResult(2.3)
+showResult(-1)
+showResult(11)
 
