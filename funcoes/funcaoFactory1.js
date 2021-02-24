@@ -9,3 +9,4 @@ function criarPessoa() {
 }
 
 console.log(criarPessoa())
+
