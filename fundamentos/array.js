@@ -1,18 +1,18 @@
-const valores = [1,2,3,4]
+const values = [1,2,3,4]
 
-console.log(valores[1], valores[3])
+console.log(values[1], values[3])
 
-valores[4] = 10
+values[4] = 10
 
-console.log(valores)
-console.log(valores.lenght)
-//tipagem heterogenea mas  é porco
-valores.push({id:3}, false, null, 'teste' )
-console.log(valores)
-// retirando elementos
-console.log(valores.pop())
-console.log(valores)
-delete valores[0]
-console.log(valores)
-//tipagem
-console.log(typeof valores)
+console.log(values)
+console.log(values.lenght)
+//heterogeneous typing
+values.push({id:3}, false, null, 'teste' )
+console.log(values)
+// removing elements
+console.log(values.pop())
+console.log(values)
+delete values[0]
+console.log(values)
+//type of objects
+console.log(typeof values)
