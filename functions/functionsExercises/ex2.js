@@ -1,18 +1,18 @@
-/* 02) Os triângulos podem ser classificados em 3 tipos quanto ao tamanho de seus lados:
-Equilátero: Os três lados são iguais. Isósceles: Dois lados iguais. Escaleno: Todos os lados são diferentes.
-Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto
-ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um
-triângulo).*/
+/* 02) Triangles can be classified into 3 types as to the size of their sides:
+Equilateral: The three sides are equal. Isosceles: Two equal sides. Scalene: All sides are different.
+Create a function that takes the lengths of the three sides of a triangle and returns its classification as to
+to the size of its sides. (In this example, abstract the mathematical conditions for the existence of a
+triangle).*/
 
 
 function isTriangle(ladoA, ladoB, ladoC) {
 
     if (ladoA == ladoB == ladoC) {
-        return "é equilátero"
+        return "is equilateral"
     } else if (ladoA == ladoB && ladoA != ladoC || ladoA != ladoB && ladoA == ladoC || ladoA != ladoB && ladoB == ladoC) {
-        return "é isósceles"
+        return "is isosceles"
     } else if (ladoA != ladoB && ladoA != ladoC & ladoB != ladoC) {
-        return "é escaleno"
+        return "is scalen"
     }
 
 }

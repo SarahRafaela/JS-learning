@@ -1,10 +1,10 @@
-//03) Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.
+// 03) Create a function that takes two parameters, base and exponent, and returns the raised base to the exponent.
 
-const potencia = function (x, y) {
+const pow = function (x, y) {
     return x ** y
 }
 
-const imprimirResultado = function (a, b, operacao = potencia) {
-    console.log(operacao(a, b))
+const printResults = function (a, b, operation = pow) {
+    console.log(operation(a, b))
 }
-imprimirResultado(3, 4)
+printResults(3, 4)
