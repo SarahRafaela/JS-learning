@@ -1,14 +1,14 @@
-let valor
+let value
 //undefined
-console.log(valor)
+console.log(value)
 
-// ausencia de valor porem é definida 
-valor = null
-console.log(valor)
+// is defined but without value
+value = null
+console.log(value)
 
-const produto ={}
-console.log(produto)
-console.log(produto.preco)
+const product ={}
+console.log(product)
+console.log(product.price)
 
-produto.preco = 1.50
-console.log(produto.preco)
+product.price = 1.50
+console.log(product.price)

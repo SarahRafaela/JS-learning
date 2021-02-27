@@ -1,10 +1,10 @@
-const escola = "Cod3r"
+const school = "Cod3r"
 
-console.log(escola.charAt(4))
+console.log(school.charAt(4))
 
-console.log(escola.charCodeAt(3))
-console.log(escola.substring(0,3))
-console.log(escola.concat("!"))
-console.log(escola.replace(3,"L"))
-console.log(escola.replace(/\d/g,"L"))
+console.log(school.charCodeAt(3))
+console.log(school.substring(0,3))
+console.log(school.concat("!"))
+console.log(school.replace(3,"L"))
+console.log(school.replace(/\d/g,"L"))
 console.log('Ana, Maria, Pedro'.split(','));

@@ -1,11 +1,11 @@
 for (let i = 0; i < 10; i++) {
     console.log(i)
 }
-// i nao esta disponivel
+// i is unavailable
 //console.log('i =', i)
 
 
-//exemplo 2
+//example 2
 
 const funcs = []
 for (let i = 0; i < 10; i++) {
@@ -13,6 +13,6 @@ for (let i = 0; i < 10; i++) {
         console.log(i)
     })
 }
-// imprime pra todos o valor de dez que  é o valor final
+// show for all 10, the end number
 funcs[2]()
 funcs[8]()

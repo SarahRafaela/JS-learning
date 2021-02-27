@@ -1,15 +1,15 @@
-const prod1 = {}
-prod1.nome ='Celular Ultra Mega'
-prod1.preco = 5.69
-prod1['Desconto Legal'] = 0.40 // evitar
-console.log(prod1)
-console.log(prod1.nome)
+const product1 = {}
+product1.name = 'Celphone'
+product1.price = 5.69
+product1['Nice Discount'] = 0.40 // evitar
+console.log(product1)
+console.log(product1.name)
 
-const prod2 ={
-    nome :'Camiseta',
-    preco : 45.60,
+const product2 = {
+    name: 'T-shirt',
+    price: 45.60,
     obj: {
-        tipo : 'ziper'
+        type: 'ziper'
 
 
     }
@@ -18,4 +18,4 @@ const prod2 ={
 
 }
 
-console.log(prod2)
+console.log(product2)
