@@ -1,15 +1,15 @@
-function tratarErroLancar(erro) {
-    throw new Error('mensagem de erro')
+function treatErrorThrow(erro) {
+    throw new Error('error message')
 
 }
-function imprimirNomeCaixaAlta(obj) {
+function showUpperCase(obj) {
     try {
         console.log(obj.name.toUpperCase())
     } catch (e) {
-        tratarErroLancar(e)
+        treatErrorThrow(e)
     } finally {
         console.log('final')
     }
 }
-const obj = { nome: 'Roberto' }
-imprimirNomeCaixaAlta(obj)
+const obj = { name: 'Roberto' }
+showUpperCase(obj)

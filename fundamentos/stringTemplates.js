@@ -1,14 +1,14 @@
-const nome = "Sarah"
-const concat = 'Ola' + nome + "!"
+const name = "Sarah"
+const concat = 'Hi ' + name + "!"
 
 const template = 
-`Olá 
-       ${nome}! `
+`Hi 
+       ${name}! `
 
 console.log(concat, template)
 
-// expressões
+// expressions
 console.log(`1+1 = ${1+1}`)
 
-const up = texto => texto.toUpperCase()
-console.log(`Ei.. ${up(`cuidado`)}!`)
+const up = text => text.toUpperCase()
+console.log(`oh.. ${up(`be careful`)}!`)
