@@ -13,6 +13,6 @@ for (let i = 0; i < 10; i++) {
         console.log(i)
     })
 }
-// show for all 10, the end number
+
 funcs[2]()
 funcs[8]()
