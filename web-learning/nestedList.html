@@ -1,0 +1,52 @@
+<h1>Project</h1>
+<ul class="tree">
+    <li><span wm-folder>
+            Backend</span>
+
+        <ul>
+            <li> <span wm-folder>app</span>
+                <ul class="nested">
+                    <li> product.js</li>
+                    <li> user.js</li>
+                    <li> sales.js</li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>config</span>
+                <ul class="nested">
+                    <li> dataBase.js</li>
+                    <li> rotes.js</li>
+                    <li> server.js</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <span wm-folder>Frontend</span>
+        <ul>
+            <li>
+                <span wm-folder>public</span>
+                <ul>
+                    <li>app.css </li>
+                    <li>app.js</li>
+                    <li>index.html</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+<script>
+    document.querySelectorAll('[wm-folder]').forEach(folder => {
+        folder.onclick = function (e) {
+            const ul = folder.nextElementSibling // next element of folder
+
+            //to debug:
+            // debugger 
+            //console.log('teste')
+            const d = ul.style.display // display of element
+            ul.style.display = d === 'none' ? 'block' : 'none' // to show or to hide
+        }
+    })
+</script>
